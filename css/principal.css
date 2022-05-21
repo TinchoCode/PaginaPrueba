@@ -1,0 +1,27 @@
+html{box-sizing: border-box;}
+/* BODY */
+body {
+	box-sizing: border-box;
+	margin: 0;
+	background-color: grey;
+}
+/* ------------ */
+/*HEADER*/
+header {
+	box-sizing: border-box;
+	background-color: red;
+}
+header h1 { margin-bottom: 0; }
+/* ------------ */
+/*NAVBAR */
+.navbar {
+	background-color: green;
+}
+.ele1 { 
+	height: 100%; width: 15%;
+	padding: 1%;
+	border: solid 1px black;
+	text-align: center;
+}
+.ele1 a { font-size: 1.2em; }
+/* ------------ */
