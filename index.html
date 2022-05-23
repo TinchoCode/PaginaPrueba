@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title> Tincho probando </title>
     <link rel="stylesheet" href="css/principal.css">
+    <script src="js/jscript.js"></script>
   </head>
   <body>
 
@@ -13,15 +14,18 @@
     </header>
     <!-- FIN DEL HEADER-->
     <div class="navbar"><!-- NAVBAR-->
-      <div class="ele1"> <a > Inicio</a></div>
+      <div class="eleBar" onclick="tikiTaka('inicio')"> <a> Inicio</a></div>
+      <div class="eleBar" onclick="tikiTaka('dibujo')"> <a> Dibujo</a></div>
     </div>
     <!-- FIN DE NAVBAR-->
-    <section class="inicio"><!-- SECTION-->
-      
-    <h3> Alto subtitulo </h3>
-
-    <h3> <a href="descargar/Pokemon_verde_hoja.zip"> Descargar Pokemon Hoja Español</a></h3>
+    <section class="inicio viendo"><!-- SECTION de INICIO-->
+      <p class="titulo"> Alto titulo </p>
+      <h3><a href="descargar/Pokemon_verde_hoja.zip"> Descargar Pokemon Hoja Español</a></h3>
     </section>
-    <!-- FIN DE SECTION-->
+    <!-- FIN DE INICIO-->
+    <section class="dibujo escond"><!-- SECTION de DIBUJO-->
+      <p class="titulo"> Alto titulo de dibujo</p>
+    </section>
+    <!-- FIN DE DIBUJO-->
   </body>
 </html>

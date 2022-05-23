@@ -2,8 +2,9 @@ html{box-sizing: border-box;}
 /* BODY */
 body {
 	box-sizing: border-box;
+	height: 100%;
 	margin: 0;
-	background-color: grey;
+	background-color: rgb(207, 207, 219);
 }
 /* ------------ */
 /*HEADER*/
@@ -15,13 +16,40 @@ header h1 { margin-bottom: 0; }
 /* ------------ */
 /*NAVBAR */
 .navbar {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
 	background-color: green;
 }
-.ele1 { 
+.eleBar { /* Elementos de la BARRA*/
 	height: 100%; width: 15%;
-	padding: 1%;
+	cursor: pointer;
+	padding: 0.5%;
 	border: solid 1px black;
 	text-align: center;
+	font-size: 1.2em;
 }
-.ele1 a { font-size: 1.2em; }
+.eleBar:hover{
+	color: green;
+	background-color: black;
+	border-color: green;
+}
+/* ------------ */
+/*SECTION de INICIO*/
+.inicio{
+	box-sizing: border-box;
+	height: auto;
+	background-color: darkgrey;
+}
+.titulo{
+	text-align: center;
+	font-size: 1.5em; 
+}.inicio .titulo{margin-top: 0;}
+/* ------------ */
+/*SECTION de DIBUJO*/
+.dibujo{
+	display: none;
+	box-sizing: border-box;
+	background-color: yellow;
+}.dibujo .titulo{margin-top: 0;}
 /* ------------ */
