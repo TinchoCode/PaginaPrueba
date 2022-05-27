@@ -7,7 +7,6 @@
     <script src="js/jscript.js"></script>
   </head>
   <body>
-
     <header><!-- HEADER-->
         <div class="icono"><img src="imagenes/iconcito.jpg" alt="icono_tincho" height="100px" width="100px" /></div>
         <div class="gTitulo">
@@ -18,15 +17,18 @@
     <div class="navbar"><!-- NAVBAR-->
       <div class="eleBar" onclick="tikiTaka('inicio')"> <a> Inicio</a></div>
       <div class="eleBar" onclick="tikiTaka('dibujo')"> <a> Dibujo</a></div>
+      <div class="eleBar" onclick="tikiTaka('creado')"> <a> veamos</a></div>
     </div>
     <!-- FIN DE NAVBAR-->
     <section class="inicio viendo"><!-- SECTION de INICIO-->
       <p class="titulo"> Alto titulo </p>
-      <h3><a href="descargar/Pokemon_verde_hoja.zip"> Descargar Pokemon Hoja Español</a></h3>
+      <input type="text" id="tag">
+      <button onclick="bimBam()"> Crear</button>
     </section>
     <!-- FIN DE INICIO-->
     <section class="dibujo escond"><!-- SECTION de DIBUJO-->
       <p class="titulo"> Alto titulo de dibujo</p>
+      <h3><a> Prueba, es un h3</a></h3>
     </section>
     <!-- FIN DE DIBUJO-->
   </body>
